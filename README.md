@@ -168,11 +168,9 @@ and Support evidence-based treatment decisions
 Educating patients about: Medication risks, Dietary habits, and Symptom recognition can improve prevention and early intervention.
 
 ## 🚀 Future Work
-*Machine Learning Integration
-*Develop predictive models to estimate ulcer risk and severity.
-*Potential algorithms: Random Forest, XGBoost, Logistic Regression and Real-Time Monitoring
-*Integrate live patient records for continuous risk assessment.
--Web-Based Healthcare Dashboard
+1. Machine Learning Integration, Develop predictive models to estimate ulcer risk and severity, Potential algorithms: Random Forest, XGBoost, Logistic Regression and Real-Time Monitoring
+2. Integrate live patient records for continuous risk assessment.
+3. Web-Based Healthcare Dashboard
 
 
 ## 🙏 Acknowledgements
