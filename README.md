@@ -3,8 +3,8 @@
 Python + Power BI Project | Patient Risk Assessment | Clinical Insights & Visualization
 
 ## 📚 Table of Contents
-Project Overview
-Tools & Technologies
+* [Project Overview]
+* Tools & Technologies
 Dataset Breakdown
 Data Preparation & Feature Engineering
 Power BI Dashboard
@@ -101,153 +101,88 @@ The dashboard provides an interactive overview of ulcer-related health indicator
 
 
 ## Dashboard Highlights
-- 👥 Total Patients
+## 👥 Total Patients
 - Displays the total number of patients included in the study.
-- ⚖️ Average BMI
+## ⚖️ Average BMI
 - Provides an overview of patient body mass index distribution.
-- 🩸 Average Hemoglobin Level
+## 🩸 Average Hemoglobin Level
 - Monitors average hemoglobin levels, an important indicator of ulcer-related bleeding risks.
-- 📉 Ulcer Depth Distribution
-
+- 
+## 📉 Ulcer Depth Distribution
 Visualizes the prevalence of:
-
-Erosion
-Superficial Ulcers
-Deep Ulcers
-📜 Ulcer History Distribution
-
+-Erosion
+-Superficial Ulcers
+-Deep Ulcers
+## 📜 Ulcer History Distribution
 Analyzes previous, recurrent, and first-time ulcer cases.
 
-💊 Medication Analysis
-
+## 💊 Medication Analysis
 Examines treatment patterns across:
-
-NSAIDs
-Aspirin
-No Medication
-🔥 Pain Pattern Distribution
-
+-NSAIDs
+-Aspirin
+-No Medication
+## 🔥 Pain Pattern Distribution
 Explores pain occurrence patterns including:
+-Postprandial
+-Fasting
+-Nocturnal
+-Mixed Pain
 
-Postprandial
-Fasting
-Nocturnal
-Mixed Pain
-👨‍⚕️ Age Group Analysis
-
+## 👨‍⚕️ Age Group Analysis
 Shows ulcer prevalence across different age groups.
 
-📊 Key Visualizations
+## 📊 Key Visualizations
 1️⃣ Patient Overview
-
 Provides high-level statistics including:
-
-Total Patients
-Average BMI
-Average Hemoglobin Level
+-Total Patients
+-Average BMI
+-Average Hemoglobin Level
 2️⃣ Ulcer Severity Analysis
-
-Highlights the distribution of ulcer depth classifications and identifies the most prevalent ulcer type.
-
+-Highlights the distribution of ulcer depth classifications and identifies the most prevalent ulcer type.
 3️⃣ Medication Usage Patterns
-
-Examines the relationship between medication exposure and ulcer occurrence.
-
+-Examines the relationship between medication exposure and ulcer occurrence.
 4️⃣ Pain Pattern Analysis
-
-Provides insight into symptom presentation among ulcer patients.
-
+-Provides insight into symptom presentation among ulcer patients.
 5️⃣ Age-Based Risk Distribution
-
-Identifies age groups most affected by ulcer conditions.
-
-🔍 Insights & Findings
+-Identifies age groups most affected by ulcer conditions.
+## 🔍 Insights & Findings
 1. Erosive Ulcers Were Most Common
-
 The analysis revealed that erosive ulcers represented the largest proportion of diagnosed ulcer cases.
-
 2. Medication Usage Influences Ulcer Risk
-
 Patients using NSAIDs and Aspirin demonstrated notable ulcer prevalence, highlighting the known gastrointestinal risks associated with these medications.
-
 3. Pain Patterns Vary Across Patients
-
 Postprandial and fasting pain were among the most frequently reported symptoms, providing valuable indicators for clinical assessment.
-
 4. Previous Ulcer History Remains a Significant Risk Factor
-
 Patients with a history of ulcers showed increased likelihood of recurrent ulcer development.
-
 5. Hemoglobin Levels Can Support Risk Assessment
-
 Lower hemoglobin levels may indicate bleeding-related complications and warrant closer clinical monitoring.
 
-🩺 Recommendations
-
+## 🩺 Recommendations
 Based on the analysis, the following recommendations are proposed:
-
-1. Early Risk Screening
-
-Healthcare providers should regularly monitor:
-
-BMI
-Hemoglobin levels
-Ulcer history
-Medication usage
-
-to identify high-risk patients.
-
-2. Medication Monitoring
-
+## 1. Early Risk Screening to identify high-risk patients.
+-Healthcare providers should regularly monitor:
+-BMI
+-Hemoglobin levels
+-Ulcer history
+-Medication usage
+## 2. Medication Monitoring
 Patients on long-term NSAIDs or Aspirin therapy should receive periodic gastrointestinal assessments to minimize ulcer complications.
-
-3. Clinical Decision Support
-
+## 3. Clinical Decision Support
 Integrating dashboards like this into healthcare systems can help clinicians:
+-Track patient trends
+-Detect risk patterns
+-Support evidence-based treatment decisions
+## 4. Patient Education
+Educating patients about: Medication risks, Dietary habits, and Symptom recognition can improve prevention and early intervention.
 
-Track patient trends
-Detect risk patterns
-Support evidence-based treatment decisions
-4. Patient Education
+## 🚀 Future Work
+-Machine Learning Integration
+-Develop predictive models to estimate ulcer risk and severity.
+-Potential algorithms: Random Forest, XGBoost, Logistic Regression and Real-Time Monitoring
+-Integrate live patient records for continuous risk assessment.
+-Web-Based Healthcare Dashboard
 
-Educating patients about:
 
-Medication risks
-Dietary habits
-Symptom recognition
-
-can improve prevention and early intervention.
-
-🚀 Future Work
-Machine Learning Integration
-
-Develop predictive models to estimate ulcer risk and severity.
-
-Potential algorithms:
-
-Random Forest
-XGBoost
-Logistic Regression
-Real-Time Monitoring
-
-Integrate live patient records for continuous risk assessment.
-
-Web-Based Healthcare Dashboard
-
-Deploy the solution using:
-
-Streamlit
-Flask
-Power BI Service
-Clinical Outcome Prediction
-
-Extend the analysis to predict:
-
-Recurrence risk
-Bleeding complications
-Treatment effectiveness
-📷 Dashboard Preview
-
-🙏 Acknowledgements
+## 🙏 Acknowledgements
 
 Special thanks to the healthcare analytics community, Power BI developers, and open-source Python contributors whose tools and resources made this project possible.
