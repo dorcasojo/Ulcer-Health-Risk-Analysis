@@ -54,9 +54,7 @@ Ulcer Depth Categories
 
 ## Patients were classified into:
 
-Erosion
-Superficial Ulcer
-Deep Ulcer
+Erosion, Superficial Ulcer and Deep Ulcer
 
 These categories help evaluate disease progression and treatment requirements.
 
