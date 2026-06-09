@@ -72,3 +72,29 @@ Standardizing categorical variables
 Data validation
 Outlier identification
 Feature aggregation for dashboard metrics
+## Data Preparation & Feature Engineering
+
+Python was used to clean and prepare the ulcer patient dataset before importing it into Power BI.
+
+```python
+import pandas as pd
+import numpy as np
+
+df = pd.read_csv("ulcer_data.csv")
+
+# Handle missing values
+df.fillna(df.mean(numeric_only=True), inplace=True)
+
+# BMI category
+df['BMI_Category'] = pd.cut(
+    df['BMI'],
+    bins=[0,18.5,25,30,100],
+    labels=['Underweight','Normal','Overweight','Obese']
+)
+
+# Average metrics
+avg_bmi = df['BMI'].mean()
+avg_hb = df['Hemoglobin'].mean()
+```
+
+The processed dataset was then imported into Power BI for dashboard creation and visualization.
