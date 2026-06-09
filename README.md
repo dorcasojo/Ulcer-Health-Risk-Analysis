@@ -97,6 +97,9 @@ The processed dataset was then imported into Power BI for dashboard creation and
 
 The dashboard provides an interactive overview of ulcer-related health indicators and patient characteristics.
 
+<img width="1206" height="673" alt="image" src="https://github.com/user-attachments/assets/42eea6ca-d7ad-47db-9846-14f8b10cf1c7" />
+
+
 ## Dashboard Highlights
 - 👥 Total Patients
 - Displays the total number of patients included in the study.
