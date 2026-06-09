@@ -3,15 +3,16 @@
 Python + Power BI Project | Patient Risk Assessment | Clinical Insights & Visualization
 
 ## 📚 Table of Contents
-* [Project Overview]
+* Project Overview
 * Tools & Technologies
-Dataset Breakdown
-Data Preparation & Feature Engineering
-Power BI Dashboard
-Key Visualizations
-Insights & Findings
-Recommendations
-Future Work
+* Dataset Breakdown
+* Data Preparation & Feature Engineering
+* Power BI Dashboard
+* Key Visualizations
+* Insights & Findings
+* Recommendations
+* Future Work
+  
 ## 📖 Project Overview
 Gastric and peptic ulcers are among the most common gastrointestinal disorders affecting millions of people worldwide. Early identification of ulcer-related risk factors can significantly improve patient outcomes and reduce complications.
 
