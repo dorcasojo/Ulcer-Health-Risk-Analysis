@@ -1,9 +1,8 @@
 # Ulcer-Health-Risk-Analysis
-🩺 Ulcer Health Risk Analysis Dashboard
 
 Python + Power BI Project | Patient Risk Assessment | Clinical Insights & Visualization
 
-📚 Table of Contents
+## 📚 Table of Contents
 Project Overview
 Tools & Technologies
 Dataset Breakdown
@@ -13,38 +12,36 @@ Key Visualizations
 Insights & Findings
 Recommendations
 Future Work
-📖 Project Overview
-
+## 📖 Project Overview
 Gastric and peptic ulcers are among the most common gastrointestinal disorders affecting millions of people worldwide. Early identification of ulcer-related risk factors can significantly improve patient outcomes and reduce complications.
 
 This project analyzes ulcer patient data to identify patterns in ulcer severity, patient demographics, medication usage, pain characteristics, and clinical indicators. Using Python for data cleaning and preprocessing and Power BI for interactive visualization, the project transforms raw healthcare data into actionable insights for healthcare professionals and researchers.
 
-The dashboard enables users to:
+## The dashboard enables users to:
 
 Monitor ulcer prevalence and severity levels
 Analyze patient demographics and clinical indicators
 Examine medication usage patterns
 Explore relationships between ulcer depth, pain severity, and patient history
 Support data-driven healthcare decision-making
-🛠️ Tools & Technologies
-Data Processing
-Python
-Pandas
-NumPy
-Jupyter Notebook
-Data Visualization
-Power BI
-Development Environment
-VS Code
-Jupyter Notebook
-Dataset
-Ulcer Patient Health Dataset
-Clinical and demographic patient records
-📊 Dataset Breakdown
-
+## 🛠️ Tools & Technologies
+* Data Processing
+* Python
+* Pandas
+* NumPy
+* Jupyter Notebook
+* Data Visualization
+* Power BI
+* Development Environment
+* VS Code
+* Jupyter Notebook
+* Dataset
+* Ulcer Patient Health Dataset
+* Clinical and demographic patient records
+## 📊 Dataset Breakdown
 The dataset contains patient information related to ulcer diagnosis, severity, and treatment.
 
-Key Variables
+## Key Variables
 Category	Features
 Demographics	Age, BMI
 Clinical Indicators	Hemoglobin Level, Ulcer Size
@@ -54,7 +51,7 @@ Diagnosis	Ulcer Depth Classification
 Treatment	Medication Type
 Ulcer Depth Categories
 
-Patients were classified into:
+## Patients were classified into:
 
 Erosion
 Superficial Ulcer
@@ -62,7 +59,7 @@ Deep Ulcer
 
 These categories help evaluate disease progression and treatment requirements.
 
-🧹 Data Preparation & Feature Engineering
+## 🧹 Data Preparation & Feature Engineering
 
 Python was used to clean and prepare the dataset before importing it into Power BI.
 
@@ -96,24 +93,18 @@ df['BMI_Category'] = pd.cut(
 
 The processed dataset was then imported into Power BI for dashboard creation and visualization.
 
-📈 Power BI Dashboard
+## 📈 Power BI Dashboard
 
 The dashboard provides an interactive overview of ulcer-related health indicators and patient characteristics.
 
-Dashboard Highlights
-👥 Total Patients
-
-Displays the total number of patients included in the study.
-
-⚖️ Average BMI
-
-Provides an overview of patient body mass index distribution.
-
-🩸 Average Hemoglobin Level
-
-Monitors average hemoglobin levels, an important indicator of ulcer-related bleeding risks.
-
-📉 Ulcer Depth Distribution
+## Dashboard Highlights
+- 👥 Total Patients
+- Displays the total number of patients included in the study.
+- ⚖️ Average BMI
+- Provides an overview of patient body mass index distribution.
+- 🩸 Average Hemoglobin Level
+- Monitors average hemoglobin levels, an important indicator of ulcer-related bleeding risks.
+- 📉 Ulcer Depth Distribution
 
 Visualizes the prevalence of:
 
