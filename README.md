@@ -103,11 +103,11 @@ The dashboard provides an interactive overview of ulcer-related health indicator
 
 ## Dashboard Highlights
 ## 👥 Total Patients
-* Displays the total number of patients included in the study.
+Displays the total number of patients included in the study.
 ## ⚖️ Average BMI
-* Provides an overview of patient body mass index distribution.
+Provides an overview of patient body mass index distribution.
 ## 🩸 Average Hemoglobin Level
-*Monitors average hemoglobin levels, an important indicator of ulcer-related bleeding risks.
+Monitors average hemoglobin levels, an important indicator of ulcer-related bleeding risks.
 
 ## 📉 Ulcer Depth Distribution
 Visualizes the prevalence of:
@@ -119,15 +119,10 @@ Analyzes previous, recurrent, and first-time ulcer cases.
 
 ## 💊 Medication Analysis
 Examines treatment patterns across:
-*NSAIDs
-*Aspirin
-*No Medication
+NSAIDs, Aspirin and No Medication
 ## 🔥 Pain Pattern Distribution
 Explores pain occurrence patterns including:
-*Postprandial
-*Fasting
-*Nocturnal
-*Mixed Pain
+Postprandial, Fasting, Nocturnal and Mixed Pain
 
 ## 👨‍⚕️ Age Group Analysis
 Shows ulcer prevalence across different age groups.
@@ -163,18 +158,12 @@ Lower hemoglobin levels may indicate bleeding-related complications and warrant 
 ## 🩺 Recommendations
 Based on the analysis, the following recommendations are proposed:
 ## 1. Early Risk Screening to identify high-risk patients.
-*Healthcare providers should regularly monitor:
-*BMI
-*Hemoglobin levels
-*Ulcer history
-*Medication usage
+Healthcare providers should regularly monitor:BMI, Hemoglobin levels, Ulcer history and Medication usage
 ## 2. Medication Monitoring
 Patients on long-term NSAIDs or Aspirin therapy should receive periodic gastrointestinal assessments to minimize ulcer complications.
 ## 3. Clinical Decision Support
-Integrating dashboards like this into healthcare systems can help clinicians:
-*Track patient trends
-*Detect risk patterns
-*Support evidence-based treatment decisions
+Integrating dashboards like this into healthcare systems can help clinicians:Track patient trends, Detect risk patterns
+and Support evidence-based treatment decisions
 ## 4. Patient Education
 Educating patients about: Medication risks, Dietary habits, and Symptom recognition can improve prevention and early intervention.
 
