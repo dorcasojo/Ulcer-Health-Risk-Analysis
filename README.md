@@ -103,49 +103,46 @@ The dashboard provides an interactive overview of ulcer-related health indicator
 
 ## Dashboard Highlights
 ## 👥 Total Patients
-- Displays the total number of patients included in the study.
+* Displays the total number of patients included in the study.
 ## ⚖️ Average BMI
-- Provides an overview of patient body mass index distribution.
+* Provides an overview of patient body mass index distribution.
 ## 🩸 Average Hemoglobin Level
-- Monitors average hemoglobin levels, an important indicator of ulcer-related bleeding risks.
-- 
+*Monitors average hemoglobin levels, an important indicator of ulcer-related bleeding risks.
+
 ## 📉 Ulcer Depth Distribution
 Visualizes the prevalence of:
--Erosion
--Superficial Ulcers
--Deep Ulcers
+*Erosion
+*Superficial Ulcers
+*Deep Ulcers
 ## 📜 Ulcer History Distribution
 Analyzes previous, recurrent, and first-time ulcer cases.
 
 ## 💊 Medication Analysis
 Examines treatment patterns across:
--NSAIDs
--Aspirin
--No Medication
+*NSAIDs
+*Aspirin
+*No Medication
 ## 🔥 Pain Pattern Distribution
 Explores pain occurrence patterns including:
--Postprandial
--Fasting
--Nocturnal
--Mixed Pain
+*Postprandial
+*Fasting
+*Nocturnal
+*Mixed Pain
 
 ## 👨‍⚕️ Age Group Analysis
 Shows ulcer prevalence across different age groups.
 
 ## 📊 Key Visualizations
-1️⃣ Patient Overview
-Provides high-level statistics including:
--Total Patients
--Average BMI
--Average Hemoglobin Level
-2️⃣ Ulcer Severity Analysis
--Highlights the distribution of ulcer depth classifications and identifies the most prevalent ulcer type.
-3️⃣ Medication Usage Patterns
+*1️⃣ Patient Overview
+Provides high-level statistics including:Total Patients, Average BMI and Average Hemoglobin Level
+*2️⃣ Ulcer Severity Analysis
+Highlights the distribution of ulcer depth classifications and identifies the most prevalent ulcer type.
+*3️⃣ Medication Usage Patterns
 -Examines the relationship between medication exposure and ulcer occurrence.
-4️⃣ Pain Pattern Analysis
--Provides insight into symptom presentation among ulcer patients.
-5️⃣ Age-Based Risk Distribution
--Identifies age groups most affected by ulcer conditions.
+*4️⃣ Pain Pattern Analysis
+Provides insight into symptom presentation among ulcer patients.
+*5️⃣ Age-Based Risk Distribution
+Identifies age groups most affected by ulcer conditions.
 ## 🔍 Insights & Findings
 1. Erosive Ulcers Were Most Common
 The analysis revealed that erosive ulcers represented the largest proportion of diagnosed ulcer cases.
@@ -161,26 +158,26 @@ Lower hemoglobin levels may indicate bleeding-related complications and warrant 
 ## 🩺 Recommendations
 Based on the analysis, the following recommendations are proposed:
 ## 1. Early Risk Screening to identify high-risk patients.
--Healthcare providers should regularly monitor:
--BMI
--Hemoglobin levels
--Ulcer history
--Medication usage
+*Healthcare providers should regularly monitor:
+*BMI
+*Hemoglobin levels
+*Ulcer history
+*Medication usage
 ## 2. Medication Monitoring
 Patients on long-term NSAIDs or Aspirin therapy should receive periodic gastrointestinal assessments to minimize ulcer complications.
 ## 3. Clinical Decision Support
 Integrating dashboards like this into healthcare systems can help clinicians:
--Track patient trends
--Detect risk patterns
--Support evidence-based treatment decisions
+*Track patient trends
+*Detect risk patterns
+*Support evidence-based treatment decisions
 ## 4. Patient Education
 Educating patients about: Medication risks, Dietary habits, and Symptom recognition can improve prevention and early intervention.
 
 ## 🚀 Future Work
--Machine Learning Integration
--Develop predictive models to estimate ulcer risk and severity.
--Potential algorithms: Random Forest, XGBoost, Logistic Regression and Real-Time Monitoring
--Integrate live patient records for continuous risk assessment.
+*Machine Learning Integration
+*Develop predictive models to estimate ulcer risk and severity.
+*Potential algorithms: Random Forest, XGBoost, Logistic Regression and Real-Time Monitoring
+*Integrate live patient records for continuous risk assessment.
 -Web-Based Healthcare Dashboard
 
 
