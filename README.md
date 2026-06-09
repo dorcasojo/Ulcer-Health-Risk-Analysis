@@ -148,4 +148,4 @@ Educating patients about: Medication risks, Dietary habits, and Symptom recognit
 
 ## 🙏 Acknowledgements
 
-Special thanks to the healthcare analytics community, Power BI developers, and open-source Python contributors whose tools and resources made this project possible.
+Special thanks to the healthcare analytics community, and Power BI developers,whose tools and resources made this project possible.
