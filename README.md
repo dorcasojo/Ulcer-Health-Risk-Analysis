@@ -72,22 +72,3 @@ Standardizing categorical variables
 Data validation
 Outlier identification
 Feature aggregation for dashboard metrics
-
-import pandas as pd
-import numpy as np
-
-df = pd.read_csv("ulcer_data.csv")
-
-# Handle missing values
-df.fillna(df.mean(numeric_only=True), inplace=True)
-
-# BMI category
-df['BMI_Category'] = pd.cut(
-    df['BMI'],
-    bins=[0,18.5,25,30,100],
-    labels=['Underweight','Normal','Overweight','Obese']
-)
-
-# Average metrics
-avg_bmi = df['BMI'].mean()
-avg_hb = df['Hemoglobin'].mean()
