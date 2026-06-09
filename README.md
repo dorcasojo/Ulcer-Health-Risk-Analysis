@@ -133,16 +133,21 @@ Explores pain occurrence patterns including:
 Shows ulcer prevalence across different age groups.
 
 ## 📊 Key Visualizations
-*1️⃣ Patient Overview
+1️⃣ Patient Overview
 Provides high-level statistics including:Total Patients, Average BMI and Average Hemoglobin Level
-*2️⃣ Ulcer Severity Analysis
+
+2️⃣ Ulcer Severity Analysis
 Highlights the distribution of ulcer depth classifications and identifies the most prevalent ulcer type.
-*3️⃣ Medication Usage Patterns
--Examines the relationship between medication exposure and ulcer occurrence.
-*4️⃣ Pain Pattern Analysis
+
+3️⃣ Medication Usage Patterns
+Examines the relationship between medication exposure and ulcer occurrence.
+
+4️⃣ Pain Pattern Analysis
 Provides insight into symptom presentation among ulcer patients.
-*5️⃣ Age-Based Risk Distribution
+
+5️⃣ Age-Based Risk Distribution
 Identifies age groups most affected by ulcer conditions.
+
 ## 🔍 Insights & Findings
 1. Erosive Ulcers Were Most Common
 The analysis revealed that erosive ulcers represented the largest proportion of diagnosed ulcer cases.
