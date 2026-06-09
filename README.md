@@ -1,6 +1,6 @@
 # Ulcer-Health-Risk-Analysis
 
-Python + Power BI Project | Patient Risk Assessment | Clinical Insights & Visualization
+Power BI Project | Patient Risk Assessment | Clinical Insights & Visualization
 
 ## 📚 Table of Contents
 * Project Overview
@@ -27,15 +27,9 @@ Explore relationships between ulcer depth, pain severity, and patient history
 Support data-driven healthcare decision-making
 ## 🛠️ Tools & Technologies
 * Data Processing
-* Python
-* Pandas
-* NumPy
-* Jupyter Notebook
 * Data Visualization
 * Power BI
 * Development Environment
-* VS Code
-* Jupyter Notebook
 * Dataset
 * Ulcer Patient Health Dataset
 * Clinical and demographic patient records
@@ -60,37 +54,18 @@ These categories help evaluate disease progression and treatment requirements.
 
 ## 🧹 Data Preparation & Feature Engineering
 
-Python was used to clean and prepare the dataset before importing it into Power BI.
+Data preparation was performed using Power Query in Power BI.
 
-Key Processing Tasks
-Handling missing values
-Standardizing categorical variables
-Data validation
-Outlier identification
-Feature aggregation for dashboard metrics
-## Data Preparation & Feature Engineering
+The following transformations were applied:
+Imported ulcer patient health records
+Validated data types for numerical and categorical fields
+Removed duplicate records
+Handled missing and inconsistent values
+Created calculated columns and measures
+Organized patient data into meaningful categories for analysis
 
-Python was used to clean and prepare the ulcer patient dataset before importing it into Power BI.
+Power Query enabled efficient cleaning and transformation of the dataset before visualization and dashboard development.
 
-```python
-import pandas as pd
-import numpy as np
-
-df = pd.read_csv("ulcer_data.csv")
-
-# Handle missing values
-df.fillna(df.mean(numeric_only=True), inplace=True)
-
-# BMI category
-df['BMI_Category'] = pd.cut(
-    df['BMI'],
-    bins=[0,18.5,25,30,100],
-    labels=['Underweight','Normal','Overweight','Obese']
-)
-
-```
-
-The processed dataset was then imported into Power BI for dashboard creation and visualization.
 
 ## 📈 Power BI Dashboard
 
